@@ -1,9 +1,23 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    color: #333;
+.profile-block {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between photo and text */
+  margin-top: 20px;
 }
 
-h1 {
-    color: #007acc;
+.profile-photo {
+  width: 150px; /* Adjust photo size */
+  height: 150px;
+  border-radius: 50%; /* Make the photo circular */
+  object-fit: cover;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 1.2em;
 }
