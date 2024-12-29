@@ -5,6 +5,15 @@ title: "Rifat Bin Rashid"
 
 # Welcome to Rifat Bin Rashid's Website
 
+<div class="profile-block">
+  <img src="images/1169817_CustomAvatar.jpg" alt="Rifat Bin Rashid" class="profile-photo">
+  <div class="profile-info">
+    <h1>Rifat Bin Rashid</h1>
+    <p>Welcome to my personal website!</p>
+  </div>
+</div>
+
+
 This site uses the Jekyll Minimal Theme.
 
 ![Branching](images/1169817_CustomAvatar.jpg)
