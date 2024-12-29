@@ -8,6 +8,7 @@ title: "Rifat Bin Rashid"
 This site uses the Jekyll Minimal Theme.
 
 ![Branching](images/1169817_CustomAvatar.jpg)
+![Octocat](images/1169817_CustomAvatar.jpg)
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
