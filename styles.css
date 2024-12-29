@@ -7,21 +7,30 @@ body {
 
 /* Menu styles */
 .menu {
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ddd;
+    background-color: #eef1f3;
+    border-bottom: 2px solid #ccc;
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.menu a {
-    margin: 0 15px;
+.menu-item {
     text-decoration: none;
-    color: #333;
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: bold;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 5px;
 }
 
-.menu a:hover {
+.menu-item:hover {
+    background-color: #ddd;
+    border: 2px solid #007bff;
     color: #007bff;
 }
 
@@ -29,7 +38,7 @@ body {
 .profile {
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
     background-color: #eef1f3;
     text-align: left;
 }
@@ -46,7 +55,7 @@ body {
 }
 
 .profile-description h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -55,13 +64,33 @@ body {
     font-size: 18px;
 }
 
-.social-links a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #007bff;
-    font-size: 18px;
+.social-links {
+    margin-top: 15px;
 }
 
-.social-links a:hover {
-    text-decoration: underline;
+.social-links a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
 }
