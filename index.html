@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>Profile Page with Dropdown</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="menu">
         <a href="#home" class="menu-item">Home</a>
-        <a href="#academic" class="menu-item">Academic</a>
+        <div class="dropdown">
+            <a href="#academic" class="menu-item">Academic</a>
+            <div class="dropdown-content">
+                <a href="#publications">Publications</a>
+                <a href="#teaching">Teaching</a>
+                <a href="#awards">Awards</a>
+            </div>
+        </div>
         <a href="#research" class="menu-item">Research</a>
         <a href="#beyond-books" class="menu-item">Beyond the Books</a>
     </nav>
     <header class="profile">
         <div class="profile-photo">
-            <img src="images/1169817_CustomAvatar.jpg" alt="Profile Photo">
+            <img src="profile.jpg" alt="Profile Photo">
         </div>
         <div class="profile-description">
             <h1>Rifat Bin Rashid</h1>
             <p>Researcher</p>
-            <p><strong>Electrical Engineering | Rutgers University</strong></p>
+            <p><strong>Electrical Engineering | University of Illinois Chicago</strong></p>
             <p>Interested in <strong>Wireless Communication | Integrated Sensing & Communication</strong></p>
             <div class="social-links">
                 <a href="#github"><img src="github-icon.png" alt="GitHub" class="icon"></a>
